@@ -36,7 +36,7 @@ plugins:
   - removeUnknownsAndDefaults
   - removeNonInheritableGroupAttrs
   - removeUselessStrokeAndFill
-  - removeViewBox
+  # - removeViewBox
   - cleanupEnableBackground
   - removeHiddenElems
   - removeEmptyText
@@ -53,13 +53,14 @@ plugins:
   - sortAttrs
   - removeTitle
   - removeDesc
-  - removeDimensions
+  # - removeDimensions
   - removeAttrs
   - removeElementsByAttr
   - addClassesToSVGElement
   - removeStyleElement
   - removeScriptElement
   - addAttributesToSVGElement
+  - convertDimensions
 
 # configure the indent (default 4 spaces) used by `--pretty` here:
 #
