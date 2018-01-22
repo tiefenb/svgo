@@ -48,6 +48,11 @@
     "lint": "jshint --show-non-errors .",
     "jshint": "npm run lint"
   },
+  "bundledDependencies": [
+    "coa", "colors", "css-url-regex", "unquote", "mkdirp",
+    "css-select", "css-select-base-adapter", "css-tree", "csso", "js-yaml",
+    "object.values", "sax", "stable", "util.promisify"
+  ],
   "dependencies": {
     "coa": "~2.0.0",
     "colors": "~1.1.2",
